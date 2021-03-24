@@ -23,7 +23,7 @@ for ( var i = 1; i <= 100; i++ ){
         per5 = true;
     }
 
-    if(( per3 ) & ( per5 )) {
+    if(( per3 ) && ( per5 )) {
         console.log('Fizz Buzz');
     }else if ( per3 ){
         console.log('Fizz');
